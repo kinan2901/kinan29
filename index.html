@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream House 2D</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game">
+    <header>
+      <div>
+        <h1>Dream House</h1>
+        <p>My little happy place ♡</p>
+      </div>
+      <div class="coins">🪙 <span id="coins">100</span></div>
+    </header>
+
+    <div class="screen">
+      <canvas id="game" width="800" height="600"></canvas>
+      <div id="message">Welcome home! ♡</div>
+    </div>
+
+    <div class="info">
+      <span id="roomName">Living Room</span>
+      <span id="actionText">Explore your house!</span>
+    </div>
+
+    <div class="controls">
+      <div class="movement">
+        <button class="up" data-dir="up">▲</button>
+        <div>
+          <button data-dir="left">◀</button>
+          <button data-dir="down">▼</button>
+          <button data-dir="right">▶</button>
+        </div>
+      </div>
+      <button id="interact" class="interact">INTERACT ✨</button>
+    </div>
+
+    <p class="tip">Gerakkan karakter dengan tombol panah / WASD atau tombol arah di layar. Dekati perabot lalu tekan INTERACT.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
